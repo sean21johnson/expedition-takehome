@@ -60,6 +60,7 @@ main {
 .icon_parking_container {
     position: relative;
     top: -15px;
+    padding-left: 15px;
 }
 
 .upper_ticket_middle_container {
@@ -67,16 +68,22 @@ main {
     flex-direction: row;
     align-items: center;
     margin-top: -20px;
+    padding-left: 23px;
 }
 
 .parking_lot_title {
     font-size: 19px;
     margin-bottom: 0px;
+    text-shadow: .3px 0 #000000;
+    letter-spacing: .3px;
 }
 
 .parking_lot_address {
     margin-top: 0px;
     font-size: 12.5px;
+    color: rgba(0, 0, 0, 0.5);
+    text-shadow: .5px 0 rgba(0, 0, 0, 0.5);
+    letter-spacing: .1px;
 }
 
 .upper_ticket_middle_dots_container {
@@ -88,7 +95,10 @@ main {
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin-top: -10px;
+    margin-top: -5px;
+    padding-left: 23px;
+    padding-bottom: 15px;
+
 }
 
 .spot_number {
@@ -133,6 +143,13 @@ a {
     align-items: center;
     justify-content: flex-start;
     width: 171.5px;
+    padding-left: 23px;
+    padding-top: 5px;
+    margin-bottom: 0px;
+}
+
+.bottom_upper_left_lower_container, .bottom_upper_right_lower_container {
+    padding-left: 23px;
 }
 
 .start_date_title, .end_date_title {
@@ -144,7 +161,7 @@ a {
 }
 
 .icon_start_container, .icon_end_container {
-    margin-left: 50px;
+    margin-left: 60px;
 }
 
 .middle_divider_container {
@@ -160,6 +177,7 @@ a {
     font-size: 19px;
     text-shadow: 1.5px 0 #000000;
     margin-bottom: 0px;
+    margin-top: 10px;
 }
 
 .start_date_time, .end_date_time {
@@ -169,11 +187,13 @@ a {
 }
 
 .bottom_middle_item_container {
+    height: 65px;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
     border-bottom: 1px solid #EBEEF1;
+    padding-left: 23px;
 }
 
 .bottom_middle_left_group_container {
@@ -196,6 +216,7 @@ a {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    padding-left: 23px;
 }
 
 .bottom_middle_bottom_left_container {
@@ -224,9 +245,51 @@ a {
 }
 
 .owner_title {
-    margin-top: 0px;
+    font-size: 13px;
 }
 
+.owner_title {
+    margin-top: 0px;
+    color: rgba(0, 0, 0, 0.5);
+    text-shadow: .5px 0 rgba(0, 0, 0, 0.5);
+}
+
+.bottom_button_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.bottom_button {
+    width: 343px;
+    height: 60px;
+    border-radius: 24px;
+    color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #000000;
+    outline: none;
+    border: transparent;
+}
+
+.identify_vehicle {
+    font-size: 17px;
+    text-shadow: 1px 0 #ffffff;
+    letter-spacing: 1px;
+    padding-right: 15px;
+}
+
+.arrow_icon, .messages_icon {
+    padding-right: 30px;
+}
+
+.bottom_middle_bottom_right_container {
+    padding-left: 15px;
+    padding-bottom: 10px;
+}
 
 
 
