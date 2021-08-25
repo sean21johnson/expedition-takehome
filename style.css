@@ -61,13 +61,18 @@ main {
 }
 
 .full_ticket_container {
-	width: 343px;
 	display: flex;
 	flex-direction: column;
+    justify-content: center;
 	background-color: #ffffff;
 	border-radius: 8px;
 	box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.16);
 }
+
+.top_ticket_container, .bottom_ticket_container {
+    width: 343px;
+}
+
 
 .icon_parking_container {
 	position: relative;
@@ -133,9 +138,50 @@ a {
 	letter-spacing: 1px;
 }
 
-.divider_container {
-	border: 1px dashed #ebeef1;
-	width: 327px;
+.dotted_divider_container {
+    /* display: flex; */
+    /* flex: row; */
+    /* justify-content: center; */
+    width: 359px;
+    display: flex;
+    justify-content: center;
+    padding-right: 14px;
+    /* left: -8px; */
+    /* right: -8px; */
+}
+
+.dotted_divider {
+	border-bottom: 1px dashed #ebeef1;
+    padding-bottom: 14px;
+	width: 359px;
+    height: 1px;
+}
+
+
+
+.transparent_sphere_one {
+    outline: none;
+    border: transparent;
+    position: relative;
+    left: -8px;
+    bottom: -6px;
+    width: 16px;
+    height: 16px;
+	background: url("./images/bg-map.png");
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.transparent_sphere_two {
+    outline: none;
+    border: transparent;
+    position: relative;
+    bottom: -6px;
+    right: -8px;
+    width: 16px;
+    height: 16px;
+	background: url("./images/bg-map.png");
+    border-radius: 50%;
 }
 
 .bottom_upper_left_container {
@@ -281,7 +327,7 @@ a {
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
-	margin-top: 25px;
+	margin-top: 20px;
 }
 
 .bottom_button {
