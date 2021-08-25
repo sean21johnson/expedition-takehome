@@ -366,7 +366,8 @@ button,
 .end_icon,
 .more_icon,
 .messages_icon,
-.close_icon {
+.close_icon,
+.directions_icon {
 	cursor: pointer;
 }
 
