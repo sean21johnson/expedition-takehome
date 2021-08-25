@@ -13,4 +13,6 @@ For this task, don't worry about how the design will size up for tables and comp
 
 **Bonus points:**
 
-Using the Google Maps Static API, replace the static map background image with a dynamically generated one instead
+    - Using the Google Maps Static API, replace the static map background image with a dynamically generated one instead
+
+**Start application using Live Server extension**
