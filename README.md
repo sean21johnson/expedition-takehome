@@ -1,4 +1,4 @@
-# Expedition Co Take Home Assignment
+# Expedition Co. Take Home Assignment
 
 ## Instructions
 
