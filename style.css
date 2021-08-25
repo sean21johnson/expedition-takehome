@@ -16,12 +16,16 @@ main {
 }
 
 .icon_close_container {
-    margin-top: 40px;
+    margin-top: 60px;
     margin-left: 15px;
 }
 
 .close_icon {
-    width: 20px;
+    width: 23px;
+}
+
+.parking_icon {
+    width: 40px;
 }
 
 .top_details_container {
@@ -32,6 +36,8 @@ main {
     margin-right: 100px;
     margin-bottom: 15px;
     padding-right: 50px;
+    margin-top: 15px;
+    margin-bottom: 25px;
 }
 
 .monthly_parking_confirmation {
@@ -67,7 +73,7 @@ main {
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin-top: -20px;
+    margin-top: -10px;
     padding-left: 23px;
 }
 
@@ -144,11 +150,12 @@ a {
     justify-content: flex-start;
     width: 171.5px;
     padding-left: 23px;
-    padding-top: 5px;
+    padding-top: 10px;
     margin-bottom: 0px;
 }
 
 .bottom_upper_left_lower_container, .bottom_upper_right_lower_container {
+    padding-bottom: 10px;
     padding-left: 23px;
 }
 
@@ -205,7 +212,7 @@ a {
 .middle_icon_same_left {
     background-color: #000000;
     border-radius: 50%;
-    padding: 4px;
+    padding: 6px;
 }
 
 .bottom_middle_bottom_container {
@@ -255,10 +262,11 @@ a {
 }
 
 .bottom_button_container {
+    width: 343px;
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin-top: 30px;
+    margin-top: 35px;
 }
 
 .bottom_button {
@@ -291,6 +299,14 @@ a {
     padding-bottom: 10px;
 }
 
+.middle_item_text {
+    padding-left: 10px;
+    padding-bottom: 3px;
+}
+
+button, .arrow_icon, .start_icon, .end_icon, .more_icon, .messages_icon {
+    cursor: pointer;
+}
 
 
 
