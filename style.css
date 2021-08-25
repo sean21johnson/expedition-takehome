@@ -10,14 +10,41 @@ body {
 	margin-right: auto;
 	height: 812px;
 	font-family: "Rubik", sans-serif;
-	/* background: url("./images/bg-map.png") no-repeat center center fixed; */
-	background: url("https://maps.googleapis.com/maps/api/staticmap?center=15714+Melrose+Ave,+Beverly+Hills,+CA+90201&zoom=13&scale=2&size=1000x1000&maptype=roadmap&key=AIzaSyBwK12OiwiuO6MiJFKLQ3KY5LhAjh_DAh0&format=png&visual_refresh=true&apikey=AIzaSyBwK12OiwiuO6MiJFKLQ3KY5LhAjh_DAh0") no-repeat center center fixed;
+	background: url("./images/bg-map.png") no-repeat center center fixed;
+	/* background: url("https://maps.googleapis.com/maps/api/staticmap?center=15714+Melrose+Ave,+Beverly+Hills,+CA+90201&zoom=13&scale=2&size=1000x1000&maptype=roadmap&visual_refresh=true&format=png&key=ENTER-API-KEY-HERE") no-repeat center center fixed; */
 	background-size: cover;
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
 	align-items: center;
 	margin: 0px;
+}
+
+.transparent_sphere_one {
+    outline: none;
+    border: transparent;
+    position: relative;
+    left: -8px;
+    bottom: -6px;
+    width: 16px;
+    height: 16px;
+	background: url("./images/bg-map.png");
+	/* background: url("https://maps.googleapis.com/maps/api/staticmap?center=15714+Melrose+Ave,+Beverly+Hills,+CA+90201&zoom=13&scale=2&size=1000x1000&maptype=roadmap&visual_refresh=true&format=png&key=ENTER-API-KEY-HERE") no-repeat center center fixed; */
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.transparent_sphere_two {
+    outline: none;
+    border: transparent;
+    position: relative;
+    bottom: -6px;
+    right: -6px;
+    width: 16px;
+    height: 16px;
+	background: url("./images/bg-map.png");
+	/* background: url("https://maps.googleapis.com/maps/api/staticmap?center=15714+Melrose+Ave,+Beverly+Hills,+CA+90201&zoom=13&scale=2&size=1000x1000&maptype=roadmap&visual_refresh=true&format=png&key=ENTER-API-KEY-HERE") no-repeat center center fixed; */
+    border-radius: 50%;
 }
 
 main {
@@ -160,32 +187,7 @@ a {
 	margin-right: -10px;
 }
 
-.transparent_sphere_one {
-    outline: none;
-    border: transparent;
-    position: relative;
-    left: -8px;
-    bottom: -6px;
-    width: 16px;
-    height: 16px;
-	/* background: url("./images/bg-map.png"); */
-	background: url("https://maps.googleapis.com/maps/api/staticmap?center=15714+Melrose+Ave,+Beverly+Hills,+CA+90201&zoom=13&scale=2&size=1000x1000&maptype=roadmap&key=AIzaSyBwK12OiwiuO6MiJFKLQ3KY5LhAjh_DAh0&format=png&visual_refresh=true&apikey=AIzaSyBwK12OiwiuO6MiJFKLQ3KY5LhAjh_DAh0");
-    overflow: hidden;
-    border-radius: 50%;
-}
 
-.transparent_sphere_two {
-    outline: none;
-    border: transparent;
-    position: relative;
-    bottom: -6px;
-    right: -6px;
-    width: 16px;
-    height: 16px;
-		/* background: url("./images/bg-map.png"); */
-	background: url("https://maps.googleapis.com/maps/api/staticmap?center=15714+Melrose+Ave,+Beverly+Hills,+CA+90201&zoom=13&scale=2&size=1000x1000&maptype=roadmap&key=AIzaSyBwK12OiwiuO6MiJFKLQ3KY5LhAjh_DAh0&format=png&visual_refresh=true&apikey=AIzaSyBwK12OiwiuO6MiJFKLQ3KY5LhAjh_DAh0");
-    border-radius: 50%;
-}
 
 .dates_container {
 	display: flex;
