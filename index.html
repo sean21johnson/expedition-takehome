@@ -8,7 +8,7 @@
 		<title>Expedition Co</title>
 	</head>
 	<body>
-		<main class="main_area">
+		<main>
 			<div class="icon_close_container">
 				<img
 					class="close_icon"
@@ -17,16 +17,18 @@
 				/>
 			</div>
 
-			<div class="top_details_container">
+			<section class="top_details_container">
 				<div class="parking_confirmation_container">
 					<p class="monthly_parking_confirmation">
 						<strong>NICE! YOUR MONTHLY PARKING IS CONFIRMED.</strong>
 					</p>
-					<p class="details_below">Your reservation details are below.</p>
+					<p class="reservation_details_below">
+						Your reservation details are below.
+					</p>
 				</div>
-			</div>
+			</section>
 
-			<section class="full_ticket_container">
+			<section class="full_parking_ticket_container">
 				<section class="top_ticket_container">
 					<div class="icon_parking_container">
 						<img
@@ -35,22 +37,26 @@
 							alt="parking icon"
 						/>
 					</div>
-					<div class="upper_ticket_middle_container">
-						<div class="upper_ticket_middle_words_container">
-							<p class="parking_lot_title">
+					<div class="full_parking_address_container">
+						<div>
+							<h3 class="parking_lot_title">
 								<strong>Fells Wargo's Parking Lot</strong>
-							</p>
-							<p class="parking_lot_address">
+							</h3>
+							<address class="parking_lot_address">
 								15714 Melrose Ave, Beverly Hills, CA 90201
-							</p>
+							</address>
 						</div>
-						<div class="upper_ticket_middle_dots_container">
-							<img class="more_icon" src="./images/icon-more.svg" />
+						<div class="three_dots_container">
+							<img
+								class="more_icon"
+								src="./images/icon-more.svg"
+								alt="3 dots for more info"
+							/>
 						</div>
 					</div>
-					<div class="upper_ticket_bottom_container">
+					<div class="directions_container">
 						<p class="spot_number">
-							<strong>SPOT<span> 21</span></strong>
+							<strong>SPOT 21</strong>
 						</p>
 						<div class="icon_directions_container">
 							<img
@@ -63,20 +69,20 @@
 					</div>
 				</section>
 
-					<div class="dotted_divider_container">
-						<div class="sphere_container">
-							<div class="transparent_sphere_one"></div>
-						</div>
-						<div class="dotted_divider"></div>
-						<div class="sphere_container">
-							<div class="transparent_sphere_two"></div>
-						</div>
+				<div class="dotted_divider_container">
+					<div class="sphere_one_container">
+						<div class="transparent_sphere_one"></div>
 					</div>
+					<div class="dotted_divider"></div>
+					<div class="sphere_two_container">
+						<div class="transparent_sphere_two"></div>
+					</div>
+				</div>
 
 				<section class="bottom_ticket_container">
-					<div class="bottom_upper_containers">
-						<div class="bottom_upper_left_container">
-							<div class="bottom_upper_left_top_container">
+					<div class="dates_container">
+						<div class="left_date_container">
+							<div class="start_date_container">
 								<p class="start_date_title">START DATE</p>
 								<div class="icon_start_container">
 									<img
@@ -86,48 +92,48 @@
 									/>
 								</div>
 							</div>
-							<div class="bottom_upper_left_lower_container">
-								<p class="start_date_date"><strong>FEB 20</strong></p>
-								<p class="start_date_time">2019 (12:00 AM)</p>
+							<div class="actual_date_container">
+								<h4 class="start_date_date"><strong>FEB 20</strong></h4>
+								<h4 class="start_date_time"><time>2019 (12:00 AM)</time></h4>
 							</div>
 						</div>
 
-						<div class="middle_divider_container"></div>
+						<div class="middle_ticket_divider_container"></div>
 
-						<div class="bottom_upper_right_container">
-							<div class="bottom_upper_right_top_container">
+						<div class="right_date_container">
+							<div class="end_date_container">
 								<p class="end_date_title">END DATE</p>
 								<div class="icon_end_container">
 									<img
 										class="start_icon"
 										src="./images/s-icon-end.svg"
-										alt="start icon"
+										alt="end icon"
 									/>
 								</div>
 							</div>
-							<div class="bottom_upper_right_lower_container">
-								<p class="end_date_date"><strong>MAY 20</strong></p>
-								<p class="end_date_time">2019 (12:00 AM)</p>
+							<div class="actual_date_container">
+								<h4 class="end_date_date"><strong>MAY 20</strong></h4>
+								<h4 class="end_date_time"><time>2019 (12:00 AM)</time></h4>
 							</div>
 						</div>
 					</div>
 
-					<div class="mid_ticket_divider_container"></div>
+					<div class="half_ticket_divider_container"></div>
 
-					<div class="bottom_middle_container">
-						<div class="bottom_middle_item_container">
-							<div class="bottom_middle_left_group_container">
-								<div class="bottom_middle_item_icon_left_container">
+					<div class="instructions_purchase_receipt_container">
+						<div class="instructions_container">
+							<div class="instructions_content_container">
+								<div>
 									<img
-										class="middle_icon_same_left"
+										class="instructions_icon"
 										src="./images/s-icon-help.svg"
-										alt="help icon"
+										alt="instructions icon"
 									/>
 								</div>
-								<p class="middle_item_text">View parking instructions</p>
+								<p class="instructions_text">View parking instructions</p>
 							</div>
 
-							<div class="bottom_middle_item_icon_right_container">
+							<div>
 								<img
 									class="arrow_icon"
 									src="./images/s-icon-arrow.svg"
@@ -135,20 +141,21 @@
 								/>
 							</div>
 						</div>
-						<div class="middle_parking_divider"></div>
-						<div class="bottom_middle_item_container">
-							<div class="bottom_middle_left_group_container">
-								<div class="bottom_middle_item_icon_left_container">
+
+						<div class="item_container_divider"></div>
+
+						<div class="purchase_container">
+							<div class="purchase_content_container">
+								<div>
 									<img
-										class="middle_icon_same_left"
+										class="purchase_icon"
 										src="./images/s-icon-clock.svg"
-										alt="clock icon"
+										alt="purchase icon"
 									/>
 								</div>
-								<p class="middle_item_text">Purchase additional months</p>
+								<p class="purchase_text">Purchase additional months</p>
 							</div>
-
-							<div class="bottom_middle_item_icon_right_container">
+							<div>
 								<img
 									class="arrow_icon"
 									src="./images/s-icon-arrow.svg"
@@ -156,20 +163,21 @@
 								/>
 							</div>
 						</div>
-						<div class="middle_parking_divider"></div>
-						<div class="bottom_middle_item_container">
-							<div class="bottom_middle_left_group_container">
-								<div class="bottom_middle_item_icon_left_container">
+
+						<div class="item_container_divider"></div>
+
+						<div class="receipt_container">
+							<div class="receipt_content_container">
+								<div>
 									<img
-										class="middle_icon_same_left"
+										class="receipt_icon"
 										src="./images/s-icon-receipt.svg"
 										alt="receipt icon"
 									/>
 								</div>
-								<p class="middle_item_text">View receipt for $272.95</p>
+								<p class="receipt_text">View receipt for $272.95</p>
 							</div>
-
-							<div class="bottom_middle_item_icon_right_container">
+							<div>
 								<img
 									class="arrow_icon"
 									src="./images/s-icon-arrow.svg"
@@ -177,21 +185,21 @@
 								/>
 							</div>
 						</div>
-						<div class="bottom_middle_bottom_container">
-							<div class="bottom_middle_bottom_left_container">
-								<div class="bottom_middle_bottom_left_icon_container">
+						<div class="owner_container">
+							<div class="owner_content_container">
+								<div>
 									<img
 										class="avatar_icon"
 										src="./images/profile-picture.jpg"
-										src="avatar"
+										alt="avatar icon"
 									/>
 								</div>
-								<div class="bottom_middle_bottom_right_container">
-									<p class="owner_name"><strong>Annie W.</strong></p>
+								<div class="owner_text_container">
+									<h2 class="owner_name"><strong>Annie W.</strong></h2>
 									<p class="owner_title">Owner</p>
 								</div>
 							</div>
-							<div class="bottom_middle_bottom_right_container">
+							<div>
 								<img
 									class="messages_icon"
 									src="./images/icon-messages.svg"
