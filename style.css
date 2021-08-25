@@ -367,3 +367,7 @@ button,
 .close_icon {
 	cursor: pointer;
 }
+
+.instructions_icon, .purchase_icon, .receipt_icon {
+	cursor: help;
+}
